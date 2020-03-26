@@ -16,8 +16,6 @@ server:
   port: 8204
 spring:
   profiles: test
-  application:
-    name: springcloud-config-client
 eureka:
   client:
     service-url:
