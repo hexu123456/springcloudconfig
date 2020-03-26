@@ -4,7 +4,7 @@
     - dev
 ---
 server:
-  port: 3344
+  port: 3355
 spring:
   application:
     name: config-client #为服务名称
@@ -15,7 +15,7 @@ eureka:
       defaultZone: http://eureka7001:7001/eureka/,http://eureka7002:7002/eureka/
 --- 
 server:
-  port: 3355
+  port: 3366
 spring:
   application:
     name: config-client #为服务名称
